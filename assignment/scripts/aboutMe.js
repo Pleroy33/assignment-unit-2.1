@@ -8,11 +8,11 @@ console.log(lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-let fullName = firstName + ' ' +lastName;
+let fullName = firstName + ' ' +lastName; // I almost forgot whitespace
 console.log(fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 13
+let luckyNumber = 13 // This is my lucky number
 console.log (luckyNumber)
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
@@ -23,7 +23,7 @@ let introduction = ' My name is ' + fullName + ' and I think ' + luckyNumber + '
 console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous = true;
+let adventurous = true; 
 console.log(adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
@@ -31,15 +31,16 @@ let food = 'pickles';
 console.log (food);
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-let pets = 1;
+let pets = 1; //I have Maddox the dog
 console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 2;
+let friendsPets = 2; //number of pets Mark has
 console.log(friendsPets);
 // 10 - Add two pets to your `pets` variable
-
+pets += 2; //Maddox was lonely so I got 2 cats
+console.log(pets);
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 3;
+let allowedPets = 3; //We can have 3 pets per residence in Brooklyn Center
 console.log(allowedPets)
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
