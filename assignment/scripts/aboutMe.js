@@ -46,7 +46,7 @@ console.log(allowedPets)
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result = "";
+let result;
 if(adventurous = true){result = 'Adventures are great!'}  // we've already set result above so no let
 else{result = "How about we stay home?"}
 console.log(result);
@@ -56,7 +56,7 @@ console.log(result);
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
-let diceRoll = "";
+let diceRoll;
 if (luckyNumber === 2 && adventurous === true) {diceRoll = "Roll the dice!";}
 else {diceRoll = "Try again later.";}
 console.log(diceRoll);
@@ -108,6 +108,10 @@ switch(luckyResult) {
   
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
+
+adventurous = true ? result = 'Adventures are great!' :
+result = "How about we stay home?";
+console.log(result);
 
 
 
