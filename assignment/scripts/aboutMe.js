@@ -47,8 +47,8 @@ console.log(allowedPets)
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 let result;
-if(adventurous = true){result = 'Adventures are great!'}  // we've already set result above so no let
-else{result = "How about we stay home?"}
+if(adventurous = true){result = "1Adventures are great!";}  // we've already set result above so no let
+else{result = "How about we stay home?";}
 console.log(result);
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -68,7 +68,7 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-petStatus = '';
+let petStatus;
 if (pets < allowedPets){petStatus = 'I can have more pets';}
 else if (pets = allowedPets){petStatus = 'I have enough pets';}
 else {petStatus = 'Oh no, I have too many pets!';}
@@ -80,6 +80,10 @@ console.log(petStatus);
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets;
+if (pets < friendsPets){mostPets = friendsPets;}
+else if(pets >= friendsPets){mostPets = pets;}
+console.log(mostPets);
 
 
 // 16 - Make a variable called `luckyResult`
@@ -109,7 +113,7 @@ switch(luckyResult) {
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
-adventurous = true ? result = 'Adventures are great!' :
+adventurous ? result = "Adventures are great!" :
 result = "How about we stay home?";
 console.log(result);
 
